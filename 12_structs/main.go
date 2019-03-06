@@ -7,11 +7,14 @@ import (
 
 // Define person struct
 type Person struct {
-	firstName string
-	lastName  string
-	city      string
-	gender    string
-	age       int
+	// firstName string
+	// lastName  string
+	// city      string
+	// gender    string
+	// age       int
+
+	firstName, lastName, city, gender string
+	age                               int
 }
 
 // Greeting method (value receiver)
